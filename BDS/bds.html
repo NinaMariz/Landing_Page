@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation System</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #container {
+            position: relative;
+        }
+
+        #backButton {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            padding: 10px;
+            background-color: #d334db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #image {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin-top: 50px; /* Adjust margin to give space for the button */
+        }
+    </style>
+</head>
+<body>
+
+<div id="container">
+    <button id="backButton" onclick="goBack()">Back</button><br>
+    <img id="image" src="homepage.png" alt="homepage">
+    <img id="image" src="home.png" alt="home">
+    <img id="image" src="admin.png" alt="admin">
+    <img id="image" src="signup.png" alt="signup">
+    <img id="image" src="login.png" alt="login">
+    <img id="image" src="send.png" alt="send">
+    <img id="image" src="donate.png" alt="donate">
+    <img id="image" src="search.png" alt="search">
+    <img id="image" src="list.png" alt="list">
+    <img id="image" src="details.png" alt="details">
+    <img id="image" src="aboutus.png" alt="about us">
+    <img id="image" src="contactdetails.png" alt="contact details">
+</div>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Skills</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<style>
+
+.skills{
+   background: #fafafa;
+ }
+ .skills .content{
+   padding: 95px 0;
+ }
+ .skills .skills-details{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .skills-details .text{
+   width: 50%;
+ }
+ .skills-details p{
+   color: #0E2431;
+   text-align: justify;
+ }
+.skills .skills-details .experience{
+  display: flex;
+  align-items: center;
+  margin: 0 150px;
+}
+
+.skills-details .experience .num {
+    color: #0E2431;
+    font-size: 80px;
+    margin-right: 5px; /* Adjust the right margin as needed */
+}
+
+.skills-details .experience .exp {
+    color: #0E2431;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 1px; /* Adjust the left margin as needed */
+}
+
+.skills-details .boxes{
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.skills-details .box{
+  width: calc(100% / 2 - 20px);
+  margin: 20px 0;
+}
+.skills-details .boxes .topic{
+  font-size: 20px;
+  color: #000000;/*programming language*/
+}
+.skills-details .boxes .per{
+  font-size: 60px;
+  color: #000000;/* sa % */
+}
+
+</style>
+<body>
+    <div id="sidebar">
+        <header>
+               <div class ="bat"><strong><i> PERSONAL WEBSITE </i> </strong> </div>
+            </ul>
+        </header>
+        <div class="name">
+Nina Mariz Onda
+        </div>
+        <ul class="nav-list">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="interest.html">Interest</a></li>
+            <li class="active"><a href="skills.html">Skills</a></li>
+            <li><a href="reco.html">Recommendation</a></li>
+        </ul>
+    </div>
+    <div id="content">
+
+        <div class="about-container">
+            <section class="skills" id="skills">
+                <div class="content">
+                  <div class="skills-details">
+                    <div class="text">
+                      <div class="topic"><h1>History</h1></div>
+                      <p>I started with HTML, CSS, and PHP in my senior high school years, and when I started in college, I learned about Python, Java, and C++. I have a basic knowledge of these programming languages, and now I can create a website and system.</p>
+                      <div class="experience">
+                        <div class="num">4</div>
+                        <div class="exp">
+                          Years Of <br />
+                          Experience
+                        </div>
+                      </div>
+                    </div>
+                    <div class="boxes">
+                      <div class="box">
+                        <div class="topic">HTML</div>
+                        <div class="per">60%</div>
+                      </div>
+                      <div class="box">
+                        <div class="topic">CSS</div>
+                        <div class="per">40%</div>
+                      </div>
+                      <div class="box">
+                        <div class="topic">JAVA</div>
+                        <div class="per">20%</div>
+                      </div>
+                      <div class="box">
+                        <div class="topic">PHP</div>
+                        <div class="per">40%</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+    </div>
+</body>
+</html>
